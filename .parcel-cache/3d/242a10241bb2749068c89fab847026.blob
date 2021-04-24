@@ -1,0 +1,167 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactBootstrapNavbar = require("react-bootstrap/Navbar");
+  var _reactBootstrapNavbarDefault = _parcelHelpers.interopDefault(_reactBootstrapNavbar);
+  var _reactBootstrapNav = require("react-bootstrap/Nav");
+  var _reactBootstrapNavDefault = _parcelHelpers.interopDefault(_reactBootstrapNav);
+  var _reactBootstrapNavDropdown = require("react-bootstrap/NavDropdown");
+  var _reactBootstrapNavDropdownDefault = _parcelHelpers.interopDefault(_reactBootstrapNavDropdown);
+  var _materialUiCoreFormControl = require("@material-ui/core/FormControl");
+  var _materialUiCoreFormControlDefault = _parcelHelpers.interopDefault(_materialUiCoreFormControl);
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _reactBootstrapForm = require("react-bootstrap/Form");
+  var _reactBootstrapFormDefault = _parcelHelpers.interopDefault(_reactBootstrapForm);
+  var _jsxFileName = "E:\\Web Projects\\AFProject\\components\\LandingPage\\AppBar\\AppBarComponent.jsx";
+  function AppBarComponent() {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default, {
+        bg: "light",
+        expand: "lg",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default.Brand, {
+        href: "#home",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 17
+        }
+      }, "React-Bootstrap"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default.Toggle, {
+        "aria-controls": "basic-navbar-nav",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 17
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default.Collapse, {
+        id: "basic-navbar-nav",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default, {
+        className: "mr-auto",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default.Link, {
+        href: "#home",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 25
+        }
+      }, "Home"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default.Link, {
+        href: "#link",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 25
+        }
+      }, "Link"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDropdownDefault.default, {
+        title: "Dropdown",
+        id: "basic-nav-dropdown",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDropdownDefault.default.Item, {
+        href: "#action/3.1",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 29
+        }
+      }, "Action"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDropdownDefault.default.Item, {
+        href: "#action/3.2",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 29
+        }
+      }, "Another action"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDropdownDefault.default.Item, {
+        href: "#action/3.3",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 29
+        }
+      }, "Something"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDropdownDefault.default.Divider, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDropdownDefault.default.Item, {
+        href: "#action/3.4",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 29
+        }
+      }, "Separated link"))), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapFormDefault.default, {
+        inline: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreFormControlDefault.default, {
+        type: "text",
+        placeholder: "Search",
+        className: "mr-sm-2",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 25
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        variant: "outline-success",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 25
+        }
+      }, "Search"))))
+    );
+  }
+  _c = AppBarComponent;
+  exports.default = AppBarComponent;
+  var _c;
+  $RefreshReg$(_c, "AppBarComponent");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
