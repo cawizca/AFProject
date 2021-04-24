@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.jsx",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel public/index.html"
   },
   "keywords": [],
   "author": "",

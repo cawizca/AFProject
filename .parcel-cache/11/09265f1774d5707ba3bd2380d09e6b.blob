@@ -1,0 +1,156 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactBootstrap = require("react-bootstrap");
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _urlSrcImgHeroMainSvg = require("url:../../../src/img/Hero-main.svg");
+  var _jsxFileName = "E:\\Web Projects\\AFProject\\components\\LandingPage\\HeroSection\\Hero.jsx";
+  const heroStyle = {
+    backgroundColor: "#f8f9fa"
+  };
+  const containerStyle = {
+    width: "100%"
+  };
+  const imageStyle = {
+    height: "75%",
+    widths: "auto",
+    marginLeft: "30%"
+  };
+  const h1Style = {
+    color: "#5E4FA2",
+    fontWeight: "700",
+    fontFamily: 'Montserrat',
+    fontSize: "60px"
+  };
+  const pStyle = {
+    color: "#5E4FA2",
+    fontFamily: 'Montserrat',
+    marginBottom: "5%"
+  };
+  const buttonStyle = {
+    backgroundColor: "#5E4FA2",
+    color: "#FEC949",
+    fontWeight: 500,
+    fontSize: "15px",
+    fontFamily: 'Montserrat',
+    width: "20%",
+    height: "8%",
+    borderRadius: "8px"
+  };
+  const wholeRow = {
+    paddingTop: "5%"
+  };
+  const wholeColumn = {
+    paddingTop: "5%",
+    paddingLeft: "10%"
+  };
+  const hrStyle = {
+    width: "25%",
+    marginBottom: "5%",
+    border: "5px solid #FEC949"
+  };
+  function Hero() {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        style: heroStyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
+        fluid: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+        style: wholeRow,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        lg: 6,
+        sm: 12,
+        style: wholeColumn,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        style: h1Style,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64,
+          columnNumber: 21
+        }
+      }, "WebName"), /*#__PURE__*/_reactDefault.default.createElement("hr", {
+        style: hrStyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        style: pStyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 21
+        }
+      }, "WebName2021 is the first international conference organized by the Faculty of computing, SLIIT. WebName solicits research papers describing significant and innovative research contributions in all disciplines of computer science."), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        style: buttonStyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 21
+        }
+      }, " Join with us ")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        lg: 6,
+        sm: 12,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: _urlSrcImgHeroMainSvg,
+        style: imageStyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 21
+        }
+      })))))
+    );
+  }
+  _c = Hero;
+  exports.default = Hero;
+  var _c;
+  $RefreshReg$(_c, "Hero");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
