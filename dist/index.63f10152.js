@@ -740,9 +740,9 @@ if ("development" !== "production") {
   })();
 }
 
-},{}],"3L2qK":[function(require,module,exports) {
+},{}],"7ACV2":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 1234;
+var HMR_PORT = 58130;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "ca6253830bf612b84ef417e863f10152";
@@ -26349,7 +26349,11 @@ try {
     backgroundColor: "#FEC949",
     fontWeight: 600,
     fontSize: "15px",
-    fontFamily: 'Montserrat'
+    fontFamily: 'Montserrat',
+    zIndex: "99"
+  };
+  const navToggleStyle = {
+    zIndex: "99"
   };
   function AppBarComponent() {
     return (
@@ -26359,7 +26363,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 35,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default.Brand, {
@@ -26368,15 +26372,16 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 36,
           columnNumber: 17
         }
       }, "WebName"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default.Toggle, {
         "aria-controls": "basic-navbar-nav",
+        style: navToggleStyle,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 37,
           columnNumber: 17
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default.Collapse, {
@@ -26384,7 +26389,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 38,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default, {
@@ -26392,7 +26397,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34,
+          lineNumber: 39,
           columnNumber: 21
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default.Link, {
@@ -26402,7 +26407,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 40,
           columnNumber: 25
         }
       }, "Home"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default.Link, {
@@ -26412,7 +26417,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
+          lineNumber: 41,
           columnNumber: 25
         }
       }, "Keynotes"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default.Link, {
@@ -26422,7 +26427,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 42,
           columnNumber: 25
         }
       }, "Workshops"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default.Link, {
@@ -26432,7 +26437,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38,
+          lineNumber: 43,
           columnNumber: 25
         }
       }, "Committie"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default.Link, {
@@ -26442,7 +26447,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 44,
           columnNumber: 25
         }
       }, "Past Proceeding")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapFormDefault.default, {
@@ -26450,7 +26455,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 46,
           columnNumber: 21
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreFormControlDefault.default, {
@@ -26460,7 +26465,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 47,
           columnNumber: 25
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -26469,7 +26474,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 48,
           columnNumber: 25
         }
       }, "Contact"))))
@@ -45572,30 +45577,14 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _urlSrcImgHeroMainSvg = require("url:../../../src/img/Hero-main.svg");
   var _urlSrcImgHeroMainSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgHeroMainSvg);
-  require("url:../../../src/img/Path.svg");
+  var _urlSrcImgPathSvg = require("url:../../../src/img/Path.svg");
+  var _urlSrcImgPathSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgPathSvg);
+  var _urlSrcImgHalfElipseSvg = require("url:../../../src/img/HalfElipse.svg");
+  var _urlSrcImgHalfElipseSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgHalfElipseSvg);
+  var _urlSrcImgEllipseSvg = require("url:../../../src/img/Ellipse.svg");
+  var _urlSrcImgEllipseSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgEllipseSvg);
+  require("../../../public/style.css");
   var _jsxFileName = "E:\\Web Projects\\AFProject\\components\\LandingPage\\HeroSection\\Hero.jsx";
-  const heroStyle = {
-    backgroundColor: "#f8f9fa"
-  };
-  const containerStyle = {
-    width: "100%"
-  };
-  const imageStyle = {
-    height: "75%",
-    widths: "auto",
-    marginLeft: "30%"
-  };
-  const h1Style = {
-    color: "#5E4FA2",
-    fontWeight: "700",
-    fontFamily: 'Montserrat',
-    fontSize: "60px"
-  };
-  const pStyle = {
-    color: "#5E4FA2",
-    fontFamily: 'Montserrat',
-    marginBottom: "5%"
-  };
   const buttonStyle = {
     backgroundColor: "#5E4FA2",
     color: "#FEC949",
@@ -45606,26 +45595,14 @@ try {
     height: "8%",
     borderRadius: "8px"
   };
-  const wholeRow = {
-    paddingTop: "5%"
-  };
-  const wholeColumn = {
-    paddingTop: "5%",
-    paddingLeft: "10%"
-  };
-  const hrStyle = {
-    // width: "100px",
-    marginBottom: "5%",
-    border: "5px solid #FEC949"
-  };
   function Hero() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
-        style: heroStyle,
+        className: "heroStyle",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62,
+          lineNumber: 22,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
@@ -45633,51 +45610,69 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 23,
           columnNumber: 9
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
-        style: wholeRow,
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: _urlSrcImgPathSvgDefault.default,
+        className: "pathStyle",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 24,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: _urlSrcImgEllipseSvgDefault.default,
+        className: "fullElipse",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+        className: "wholeRow",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
         lg: 6,
         sm: 12,
-        style: wholeColumn,
+        className: "wholeColumn",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 27,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
-        style: h1Style,
+        className: "h1Style",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66,
+          lineNumber: 28,
           columnNumber: 21
         }
       }, "WebName"), /*#__PURE__*/_reactDefault.default.createElement("hr", {
         width: "30%",
         align: "left",
-        style: hrStyle,
+        className: "hrStyle",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67,
+          lineNumber: 29,
           columnNumber: 21
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("p", {
-        style: pStyle,
+        className: "pStyle",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68,
+          lineNumber: 30,
           columnNumber: 21
         }
       }, "WebName2021 is the first international conference organized by the Faculty of computing, SLIIT. WebName solicits research papers describing significant and innovative research contributions in all disciplines of computer science."), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -45685,25 +45680,34 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 31,
           columnNumber: 21
         }
-      }, " Join with us ")), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+      }, " Join with us "), /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: _urlSrcImgHalfElipseSvgDefault.default,
+        className: "halfEStyle",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 21
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
         lg: 6,
         sm: 12,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71,
+          lineNumber: 34,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("img", {
         src: _urlSrcImgHeroMainSvgDefault.default,
-        style: imageStyle,
+        className: "imageStyle",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 36,
           columnNumber: 21
         }
       })))))
@@ -45719,7 +45723,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-bootstrap":"4n7hB","@material-ui/core/Button":"1Xm5M","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","url:../../../src/img/Hero-main.svg":"30YKJ","url:../../../src/img/Path.svg":"2nsnw"}],"4n7hB":[function(require,module,exports) {
+},{"react":"3b2NM","react-bootstrap":"4n7hB","@material-ui/core/Button":"1Xm5M","url:../../../src/img/Hero-main.svg":"30YKJ","url:../../../src/img/Path.svg":"2nsnw","url:../../../src/img/HalfElipse.svg":"3BUDE","url:../../../src/img/Ellipse.svg":"1vgLq","../../../public/style.css":"1kexX","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"4n7hB":[function(require,module,exports) {
 "use strict";
 
 var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
@@ -51697,6 +51701,10 @@ exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 },{}],"2nsnw":[function(require,module,exports) {
 module.exports = require('./bundle-url').getBundleURL() + "Path.8d32f5f3.svg"
-},{"./bundle-url":"3seVR"}]},["1j6wU","3L2qK","5Qvcc"], "5Qvcc", "parcelRequired546")
+},{"./bundle-url":"3seVR"}],"3BUDE":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "HalfElipse.68573de9.svg"
+},{"./bundle-url":"3seVR"}],"1vgLq":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "Ellipse.9418446f.svg"
+},{"./bundle-url":"3seVR"}],"1kexX":[function() {},{}]},["1j6wU","7ACV2","5Qvcc"], "5Qvcc", "parcelRequired546")
 
 //# sourceMappingURL=index.63f10152.js.map

@@ -22,14 +22,19 @@ const buttonStyle = {
     backgroundColor:"#FEC949",
     fontWeight: 600,
     fontSize: "15px",
-    fontFamily: 'Montserrat'
+    fontFamily: 'Montserrat',
+    zIndex: "99"
+}
+
+const navToggleStyle = {
+    zIndex: "99"
 }
 
 function AppBarComponent(){
     return(
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand href="#home" style={brandStyle}>WebName</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" style = {navToggleStyle}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
                         <Nav.Link href="#home" style={linkStyle} className="mx-3">Home</Nav.Link>
@@ -40,7 +45,7 @@ function AppBarComponent(){
                     </Nav>
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success" style={buttonStyle}>Contact</Button>
+                        <Button variant="outline-success" style={buttonStyle} >Contact</Button>
                     </Form>
                 </Navbar.Collapse>
             </Navbar>
