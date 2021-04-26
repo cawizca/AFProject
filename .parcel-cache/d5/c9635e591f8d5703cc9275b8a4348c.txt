@@ -26,7 +26,7 @@
 69E:\Web Projects\AFProject\node_modules\csso\node_modules\css-tree\lib132638827863133451 1
 81E:\Web Projects\AFProject\node_modules\@material-ui\core\utils\unsupportedProp.js121436361000000000 0
 55E:\Web Projects\AFProject\node_modules\asynckit\LICENSE131080260120000000 0
-31E:\Web Projects\AFProject\.idea132638861512098907 1
+31E:\Web Projects\AFProject\.idea132638883571559679 1
 101E:\Web Projects\AFProject\node_modules\postcss-minify-selectors\node_modules\postcss\lib\warn-once.js121436361000000000 0
 47E:\Web Projects\AFProject\node_modules\lowlight132638828532318822 1
 82E:\Web Projects\AFProject\node_modules\to-object-path\node_modules\kind-of\LICENSE130922319970000000 0
@@ -93,11 +93,11 @@
 61E:\Web Projects\AFProject\node_modules\minimist\test\parse.js121436361000000000 0
 56E:\Web Projects\AFProject\node_modules\unpipe\HISTORY.md130787873820000000 0
 114E:\Web Projects\AFProject\node_modules\postcss-normalize-whitespace\node_modules\postcss\docs\guidelines\plugin.md121436361000000000 0
-48E:\Web Projects\AFProject\dist\Path.8d32f5f3.svg132638871053724053 0
+48E:\Web Projects\AFProject\dist\Path.8d32f5f3.svg132638883808695788 0
 60E:\Web Projects\AFProject\node_modules\is-core-module\.nycrc121436361000000000 0
 82E:\Web Projects\AFProject\node_modules\@babel\plugin-transform-modules-umd\LICENSE121012626000000000 0
 49E:\Web Projects\AFProject\node_modules\randomfill132638828390030480 1
-30E:\Web Projects\AFProject\dist132638871059342176 1
+30E:\Web Projects\AFProject\dist132638883816322707 1
 68E:\Web Projects\AFProject\node_modules\string.prototype.trimend\test132638827810447342 1
 61E:\Web Projects\AFProject\node_modules\sha.js\test\vectors.js132638827841418933 0
 74E:\Web Projects\AFProject\node_modules\core-js\features\string\iterator.js121436361000000000 0
@@ -173,7 +173,7 @@
 107E:\Web Projects\AFProject\node_modules\postcss-merge-rules\node_modules\postcss-selector-parser\LICENSE-MIT121436361000000000 0
 64E:\Web Projects\AFProject\node_modules\@parcel\transformer-babel132638828159227073 1
 90E:\Web Projects\AFProject\node_modules\react-transition-group\TransitionGroup\package.json121436361000000000 0
-32E:\Web Projects\AFProject\public132638859924447646 1
+32E:\Web Projects\AFProject\public132638882917045291 1
 71E:\Web Projects\AFProject\node_modules\cosmiconfig\dist\cacheWrapper.js121436361000000000 0
 74E:\Web Projects\AFProject\node_modules\es-abstract\2017\SetFunctionName.js121436361000000000 0
 90E:\Web Projects\AFProject\node_modules\available-typed-arrays\.github\workflows\rebase.yml121436361000000000 0
@@ -338,7 +338,7 @@
 49E:\Web Projects\AFProject\node_modules\node-forge132638828520212895 1
 88E:\Web Projects\AFProject\node_modules\postcss-colormin\node_modules\postcss\lib\list.js121436361000000000 0
 71E:\Web Projects\AFProject\node_modules\core-js\features\date\to-json.js121436361000000000 0
-42E:\Web Projects\AFProject\public\style.css132638859924427624 0
+42E:\Web Projects\AFProject\public\style.css132638882917025279 0
 78E:\Web Projects\AFProject\node_modules\connect\node_modules\debug\src\debug.js131505605660000000 0
 118E:\Web Projects\AFProject\node_modules\postcss-normalize-timing-functions\node_modules\postcss\lib\css-syntax-error.js121436361000000000 0
 52E:\Web Projects\AFProject\node_modules\eventemitter3132638828573872586 1
@@ -6079,7 +6079,7 @@
 83E:\Web Projects\AFProject\node_modules\stylehacks\dist\plugins\leadingUnderscore.js121436361000000000 0
 85E:\Web Projects\AFProject\node_modules\jsdom\lib\jsdom\living\generated\ErrorEvent.js121436361000000000 0
 96E:\Web Projects\AFProject\node_modules\regenerate-unicode-properties\Script_Extensions\Yezidi.js121436361000000000 0
-41E:\Web Projects\AFProject\dist\index.html132638871058331257 0
+41E:\Web Projects\AFProject\dist\index.html132638883815351843 0
 59E:\Web Projects\AFProject\node_modules\core-js\features\url132638827999514105 1
 67E:\Web Projects\AFProject\node_modules\es-abstract\2016\ToObject.js121436361000000000 0
 97E:\Web Projects\AFProject\node_modules\postcss-minify-font-values\node_modules\color-name\LICENSE130953959930000000 0
@@ -9856,7 +9856,7 @@
 98E:\Web Projects\AFProject\node_modules\postcss-unique-selectors\node_modules\postcss\lib\parser.js121436361000000000 0
 122E:\Web Projects\AFProject\node_modules\postcss-normalize-charset\node_modules\chalk\node_modules\supports-color\browser.js131663821590000000 0
 85E:\Web Projects\AFProject\node_modules\es-abstract\2018\AbstractEqualityComparison.js121436361000000000 0
-51E:\Web Projects\AFProject\dist\Ellipse.9418446f.svg132638871053724053 0
+51E:\Web Projects\AFProject\dist\Ellipse.9418446f.svg132638883808695788 0
 69E:\Web Projects\AFProject\node_modules\@material-ui\core\List\List.js121436361000000000 0
 78E:\Web Projects\AFProject\node_modules\es-abstract\2016\OrdinaryHasProperty.js121436361000000000 0
 99E:\Web Projects\AFProject\node_modules\postcss-unique-selectors\node_modules\postcss\lib\postcss.js121436361000000000 0
@@ -17206,7 +17206,7 @@
 75E:\Web Projects\AFProject\node_modules\core-js\features\weak-map\emplace.js121436361000000000 0
 59E:\Web Projects\AFProject\node_modules\indexes-of\README.md130290660740000000 0
 68E:\Web Projects\AFProject\node_modules\indefinite-observable\AUTHORS131861191600000000 0
-60E:\Web Projects\AFProject\components\LandingPage\HeroSection132638861117918670 1
+60E:\Web Projects\AFProject\components\LandingPage\HeroSection132638883457430934 1
 73E:\Web Projects\AFProject\node_modules\indefinite-observable\package.json132637188153156322 0
 77E:\Web Projects\AFProject\node_modules\indefinite-observable\rollupPlugins.js131889676140000000 0
 74E:\Web Projects\AFProject\node_modules\indefinite-observable\tsconfig.json131889676140000000 0
@@ -17218,7 +17218,7 @@
 71E:\Web Projects\AFProject\node_modules\highlight.js\scss\grayscale.scss121436361000000000 0
 55E:\Web Projects\AFProject\node_modules\core-js\es\array132638828000965428 1
 78E:\Web Projects\AFProject\node_modules\indefinite-observable\dist\index.js.map131891544050000000 0
-53E:\Web Projects\AFProject\dist\Hero-main.5172eee9.svg132638871054604061 0
+53E:\Web Projects\AFProject\dist\Hero-main.5172eee9.svg132638883809566576 0
 76E:\Web Projects\AFProject\node_modules\indefinite-observable\dist\types.d.ts131891544060000000 0
 78E:\Web Projects\AFProject\node_modules\indefinite-observable\dist\types.js.map131891544050000000 0
 89E:\Web Projects\AFProject\node_modules\indefinite-observable\dist\wrapWithObserver.js.map131891544050000000 0
@@ -17259,7 +17259,7 @@
 78E:\Web Projects\AFProject\node_modules\icss-utils\node_modules\postcss\LICENSE121436361000000000 0
 80E:\Web Projects\AFProject\node_modules\@material-ui\core\es\ButtonGroup\index.js121436361000000000 0
 85E:\Web Projects\AFProject\node_modules\icss-utils\node_modules\postcss\lib\at-rule.js121436361000000000 0
-75E:\Web Projects\AFProject\components\LandingPage\AppBar\AppBarComponent.jsx132638410178022141 0
+75E:\Web Projects\AFProject\components\LandingPage\AppBar\AppBarComponent.jsx132638881293175438 0
 87E:\Web Projects\AFProject\node_modules\icss-utils\node_modules\postcss\lib\container.js121436361000000000 0
 82E:\Web Projects\AFProject\node_modules\core-js\modules\esnext.iterator.to-array.js121436361000000000 0
 89E:\Web Projects\AFProject\node_modules\icss-utils\node_modules\postcss\lib\declaration.js121436361000000000 0
@@ -19685,7 +19685,7 @@
 82E:\Web Projects\AFProject\node_modules\cssnano\node_modules\color-convert\route.js121436361000000000 0
 70E:\Web Projects\AFProject\node_modules\css-tree\lib\parser\sequence.js121436361000000000 0
 73E:\Web Projects\AFProject\node_modules\cssnano\node_modules\chalk\license121436361000000000 0
-55E:\Web Projects\AFProject\components\LandingPage\AppBar132638410178042156 1
+55E:\Web Projects\AFProject\components\LandingPage\AppBar132638881293195458 1
 78E:\Web Projects\AFProject\node_modules\cssnano\node_modules\chalk\templates.js121436361000000000 0
 71E:\Web Projects\AFProject\node_modules\cssnano\node_modules\chalk\types132638827890453481 1
 104E:\Web Projects\AFProject\node_modules\cssnano\node_modules\chalk\node_modules\supports-color\browser.js131663821590000000 0
@@ -20754,7 +20754,7 @@
 79E:\Web Projects\AFProject\node_modules\core-js\features\symbol\to-string-tag.js121436361000000000 0
 72E:\Web Projects\AFProject\node_modules\core-js\features\string\anchor.js121436361000000000 0
 69E:\Web Projects\AFProject\node_modules\core-js\features\string\big.js121436361000000000 0
-54E:\Web Projects\AFProject\dist\HalfElipse.68573de9.svg132638871053724053 0
+54E:\Web Projects\AFProject\dist\HalfElipse.68573de9.svg132638883808695788 0
 71E:\Web Projects\AFProject\node_modules\core-js\features\string\blink.js121436361000000000 0
 70E:\Web Projects\AFProject\node_modules\core-js\features\string\bold.js121436361000000000 0
 79E:\Web Projects\AFProject\node_modules\core-js\features\string\code-point-at.js121436361000000000 0
@@ -23516,7 +23516,7 @@
 76E:\Web Projects\AFProject\node_modules\@parcel\runtime-js\lib\cacheLoader.js121436361000000000 0
 69E:\Web Projects\AFProject\node_modules\@parcel\runtime-js\lib\loaders132638827795874116 1
 78E:\Web Projects\AFProject\node_modules\@parcel\runtime-js\lib\relative-path.js121436361000000000 0
-69E:\Web Projects\AFProject\components\LandingPage\HeroSection\Hero.jsx132638861117898661 0
+69E:\Web Projects\AFProject\components\LandingPage\HeroSection\Hero.jsx132638883457410914 0
 74E:\Web Projects\AFProject\node_modules\@parcel\runtime-js\lib\loaders\node132638827799067023 1
 87E:\Web Projects\AFProject\node_modules\@babel\types\scripts\utils\stringifyValidator.js121012626000000000 0
 76E:\Web Projects\AFProject\node_modules\@parcel\runtime-js\lib\loaders\worker132638827799177112 1
@@ -26063,10 +26063,10 @@
 53E:\Web Projects\AFProject\node_modules\.bin\uncss.cmd132638828634559937 0
 49E:\Web Projects\AFProject\node_modules\.bin\which132638828633859293 0
 53E:\Web Projects\AFProject\node_modules\.bin\which.ps1132638828633859293 0
-49E:\Web Projects\AFProject\dist\index.21fc8037.css132638871058341266 0
-53E:\Web Projects\AFProject\dist\index.21fc8037.css.map132638871058421347 0
-48E:\Web Projects\AFProject\dist\index.63f10152.js132638871058611509 0
-52E:\Web Projects\AFProject\dist\index.63f10152.js.map132638871059031894 0
+49E:\Web Projects\AFProject\dist\index.21fc8037.css132638883815351843 0
+53E:\Web Projects\AFProject\dist\index.21fc8037.css.map132638883815411878 0
+48E:\Web Projects\AFProject\dist\index.63f10152.js132638883815602057 0
+52E:\Web Projects\AFProject\dist\index.63f10152.js.map132638883816012432 0
 84E:\Web Projects\AFProject\components\LandingPage\KeynotesComponent\CardComponent.jsx132638856370989738 0
 42E:\Web Projects\AFProject\.idea\.gitignore132637186654473914 0
-45E:\Web Projects\AFProject\.idea\workspace.xml132638861512068881 0
+45E:\Web Projects\AFProject\.idea\workspace.xml132638883571539657 0

@@ -26436,7 +26436,7 @@ try {
           lineNumber: 47,
           columnNumber: 17
         }
-      }, "WebName"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default.Toggle, {
+      }, "ICAF"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavbarDefault.default.Toggle, {
         "aria-controls": "basic-navbar-nav",
         style: navToggleStyle,
         __self: this,
@@ -45749,14 +45749,14 @@ try {
           lineNumber: 41,
           columnNumber: 21
         }
-      }, "WebName"), /*#__PURE__*/_reactDefault.default.createElement("hr", {
-        width: "30%",
+      }, "International Conference on Application Frameworks"), /*#__PURE__*/_reactDefault.default.createElement("hr", {
+        width: "40%",
         align: "left",
         className: "hrStyle",
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 43,
           columnNumber: 21
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("p", {
@@ -45764,7 +45764,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 44,
           columnNumber: 21
         }
       }, "WebName2021 is the first international conference organized by the Faculty of computing, SLIIT. WebName solicits research papers describing significant and innovative research contributions in all disciplines of computer science."), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
@@ -45772,7 +45772,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 45,
           columnNumber: 21
         }
       }, " Contact us Today "), /*#__PURE__*/_reactDefault.default.createElement("img", {
@@ -45781,7 +45781,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 46,
           columnNumber: 21
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
@@ -45790,7 +45790,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 48,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("img", {
@@ -45799,7 +45799,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 50,
           columnNumber: 21
         }
       })))))

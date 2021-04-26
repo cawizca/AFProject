@@ -44,7 +44,7 @@ const navToggleStyle = {
 function AppBarComponent(){
     return(
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home" style={brandStyle}>WebName</Navbar.Brand>
+                <Navbar.Brand href="#home" style={brandStyle}>ICAF</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style = {navToggleStyle}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
