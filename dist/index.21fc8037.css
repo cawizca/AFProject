@@ -67,5 +67,40 @@
     height: 282px;
     background-color: #ECE6F2;
     border-radius: 10px;
+    box-shadow: -9px 9px 21px rgba(0, 0, 0, 0.16);
+    transition: 0.5s;
 }
+
+.card-box:hover{
+    transform: scale(1.1);
+    background-color: #ECE6F2;
+    border-radius: 10px;
+    box-shadow: -20px 20px 21px rgba(0, 0, 0, 0.16);
+    transition: 0.5s;
+}
+
+.avatar{
+    width: 120px !important;
+    height: 120px !important;
+    border: 3px solid #FEC949;
+    margin-top: 15%;
+}
+
+.profName{
+    position: absolute;
+    bottom : 25%;
+    color: #5E4FA2;
+    font-weight: 700;
+}
+
+.profDesc{
+    position: absolute;
+    bottom: -5%;
+    width: 60% !important;
+    min-width: 60% !important;
+    max-width: 160% !important;
+    font-size: 15px;
+    color: #5E4FA2;
+}
+
 /*# sourceMappingURL=index.21fc8037.css.map */
