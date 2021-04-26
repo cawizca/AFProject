@@ -1,0 +1,1 @@
+module.exports = require('./bundle-url').getBundleURL() + "Hero-main.HASH_REF_fe39f081db8168fd028319aa5172eee9.svg"

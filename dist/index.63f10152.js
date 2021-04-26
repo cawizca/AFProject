@@ -1054,7 +1054,7 @@ try {
   var _reactDomDefault = _parcelHelpers.interopDefault(_reactDom);
   var _App = require('./App');
   var _AppDefault = _parcelHelpers.interopDefault(_App);
-  var _jsxFileName = "C:\\Users\\Shanuka\\WebstormProjects\\AFProject\\index.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\index.jsx";
   _reactDomDefault.default.render(/*#__PURE__*/_reactDefault.default.createElement(_AppDefault.default, {
     __self: undefined,
     __source: {
@@ -26277,7 +26277,7 @@ try {
   var _reactRouterDom = require("react-router-dom");
   var _componentsRegistrationRegistration = require("./components/Registration/Registration");
   var _componentsRegistrationRegistrationDefault = _parcelHelpers.interopDefault(_componentsRegistrationRegistration);
-  var _jsxFileName = "C:\\Users\\Shanuka\\WebstormProjects\\AFProject\\App.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\App.jsx";
   function App() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
@@ -26343,7 +26343,7 @@ try {
   var _HeroSectionHeroDefault = _parcelHelpers.interopDefault(_HeroSectionHero);
   var _KeynotesComponentCardComponent = require("./KeynotesComponent/CardComponent");
   var _KeynotesComponentCardComponentDefault = _parcelHelpers.interopDefault(_KeynotesComponentCardComponent);
-  var _jsxFileName = "C:\\Users\\Shanuka\\WebstormProjects\\AFProject\\components\\LandingPage\\LandingPageComponent.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\LandingPageComponent.jsx";
   function LandingPageComponent() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26408,7 +26408,7 @@ try {
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
   var _reactBootstrapForm = require("react-bootstrap/Form");
   var _reactBootstrapFormDefault = _parcelHelpers.interopDefault(_reactBootstrapForm);
-  var _jsxFileName = "C:\\Users\\Shanuka\\WebstormProjects\\AFProject\\components\\LandingPage\\AppBar\\AppBarComponent.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\AppBar\\AppBarComponent.jsx";
   const brandStyle = {
     color: "#5E4FA2",
     fontWeight: 700
@@ -45678,7 +45678,7 @@ try {
   var _urlSrcImgEllipseSvg = require("url:../../../src/img/Ellipse.svg");
   var _urlSrcImgEllipseSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgEllipseSvg);
   require("../../../public/style.css");
-  var _jsxFileName = "C:\\Users\\Shanuka\\WebstormProjects\\AFProject\\components\\LandingPage\\HeroSection\\Hero.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\HeroSection\\Hero.jsx";
   const buttonStyle = {
     backgroundColor: "#5E4FA2",
     color: "#FEC949",
@@ -51840,7 +51840,7 @@ try {
   var _Card = require("./Card");
   var _CardDefault = _parcelHelpers.interopDefault(_Card);
   require("../../../public/style.css");
-  var _jsxFileName = "C:\\Users\\Shanuka\\WebstormProjects\\AFProject\\components\\LandingPage\\KeynotesComponent\\CardComponent.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\KeynotesComponent\\CardComponent.jsx";
   function CardComponent() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -51924,18 +51924,19 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require("../../../public/Styles/card.css");
   var _materialUiCore = require("@material-ui/core");
-  var _jsxFileName = "C:\\Users\\Shanuka\\WebstormProjects\\AFProject\\components\\LandingPage\\KeynotesComponent\\Card.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\KeynotesComponent\\Card.jsx";
   function Card() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
-        className: "card-box",
+        className: "card-box d-flex justify-content-center",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 7,
-          columnNumber: 11
+          columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCore.Avatar, {
+        className: "avatar",
         src: "https://mercon.uom.lk/img/speakers/1.png",
         __self: this,
         __source: {
@@ -51943,7 +51944,23 @@ try {
           lineNumber: 8,
           columnNumber: 9
         }
-      }))
+      }), /*#__PURE__*/_reactDefault.default.createElement("h4", {
+        className: "profName",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 9
+        }
+      }, "Prof. John L. Volakis"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "profDesc text-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 9
+        }
+      }, "College of Engineering and Computing, Florida International University, USA"))
     );
   }
   _c = Card;
@@ -85221,29 +85238,45 @@ try {
   _parcelHelpers.defineInteropFlag(exports);
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _jsxFileName = "C:\\Users\\Shanuka\\WebstormProjects\\AFProject\\components\\Registration\\Registration.js";
+  var _LandingPageAppBarAppBarComponent = require("../LandingPage/AppBar/AppBarComponent");
+  var _LandingPageAppBarAppBarComponentDefault = _parcelHelpers.interopDefault(_LandingPageAppBarAppBarComponent);
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\Registration\\Registration.js";
   function Registraion() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
-        className: "container",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 7,
           columnNumber: 9
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+      }, /*#__PURE__*/_reactDefault.default.createElement(_LandingPageAppBarAppBarComponentDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "container",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
           columnNumber: 13
         }
       }, "  SIGN UP"), /*#__PURE__*/_reactDefault.default.createElement("form", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10,
+          lineNumber: 14,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85251,7 +85284,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
+          lineNumber: 15,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85260,7 +85293,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 16,
           columnNumber: 21
         }
       }, "First Name"), /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85274,7 +85307,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 17,
           columnNumber: 21
         }
       })), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85282,7 +85315,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 24,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85291,7 +85324,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 25,
           columnNumber: 21
         }
       }, "Last Name"), /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85305,7 +85338,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22,
+          lineNumber: 26,
           columnNumber: 21
         }
       })), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85313,7 +85346,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30,
+          lineNumber: 34,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85322,7 +85355,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31,
+          lineNumber: 35,
           columnNumber: 21
         }
       }, "Email"), /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85336,7 +85369,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 36,
           columnNumber: 21
         }
       })), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85344,7 +85377,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 45,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85353,7 +85386,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 46,
           columnNumber: 29
         }
       }, "Gender"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85361,7 +85394,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 47,
           columnNumber: 29
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85373,7 +85406,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 48,
           columnNumber: 33
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85382,7 +85415,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 49,
           columnNumber: 37
         }
       }, "Male")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85390,7 +85423,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49,
+          lineNumber: 53,
           columnNumber: 29
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85401,7 +85434,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51,
+          lineNumber: 55,
           columnNumber: 33
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85410,14 +85443,14 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53,
+          lineNumber: 57,
           columnNumber: 37
         }
       }, "Female")), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60,
+          lineNumber: 64,
           columnNumber: 29
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85426,7 +85459,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61,
+          lineNumber: 65,
           columnNumber: 29
         }
       }, "Register As a"), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85434,7 +85467,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63,
+          lineNumber: 67,
           columnNumber: 29
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85446,7 +85479,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64,
+          lineNumber: 68,
           columnNumber: 33
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85455,7 +85488,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65,
+          lineNumber: 69,
           columnNumber: 33
         }
       }, "Researcher")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85463,7 +85496,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69,
+          lineNumber: 73,
           columnNumber: 29
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85474,7 +85507,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71,
+          lineNumber: 75,
           columnNumber: 33
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85483,7 +85516,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72,
+          lineNumber: 76,
           columnNumber: 33
         }
       }, "Workshop presenter")), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85491,7 +85524,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76,
+          lineNumber: 80,
           columnNumber: 29
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85502,7 +85535,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78,
+          lineNumber: 82,
           columnNumber: 33
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85511,7 +85544,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79,
+          lineNumber: 83,
           columnNumber: 33
         }
       }, "Attendee"))), /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85519,7 +85552,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87,
+          lineNumber: 91,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -85530,7 +85563,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88,
+          lineNumber: 92,
           columnNumber: 21
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -85539,14 +85572,14 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89,
+          lineNumber: 93,
           columnNumber: 25
         }
       }, "I agreed terms and conditions.")), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94,
+          lineNumber: 98,
           columnNumber: 17
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("button", {
@@ -85555,10 +85588,10 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96,
+          lineNumber: 100,
           columnNumber: 17
         }
-      }, "Submit")))
+      }, "Submit"))))
     );
   }
   _c = Registraion;
@@ -85571,6 +85604,6 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","52mjJ","5Qvcc"], "5Qvcc", "parcelRequired546")
+},{"react":"3b2NM","../LandingPage/AppBar/AppBarComponent":"6thgW","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","52mjJ","5Qvcc"], "5Qvcc", "parcelRequired546")
 
 //# sourceMappingURL=index.63f10152.js.map
