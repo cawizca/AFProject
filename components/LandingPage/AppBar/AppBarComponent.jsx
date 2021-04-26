@@ -52,12 +52,12 @@ function AppBarComponent(){
                         <Nav.Link href="#link" style={linkStyle} className="mx-3">Keynotes</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3">Workshops</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3">Committie</Nav.Link>
-                        <Nav.Link href="#link" style={linkStyle} className="mx-3">Past Proceeding</Nav.Link>
+                        <Nav.Link href="#link" style={linkStyle} className="mx-3" >Past Proceeding</Nav.Link>
                     </Nav>
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                         <Button variant="outlined" style={buttonInStyle}>Sign In</Button>
-                        <Button variant="outline-success" style={buttonUpStyle} >Sign Up</Button>
+                        <Button variant="outline-success" style={buttonUpStyle} href="/registration" >Sign Up</Button>
                     </Form>
                 </Navbar.Collapse>
             </Navbar>
