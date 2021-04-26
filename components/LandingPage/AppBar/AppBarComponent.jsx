@@ -17,13 +17,24 @@ const linkStyle = {
     fontWeight: 500
 }
 
-const buttonStyle = {
+const buttonUpStyle = {
     color: "#5E4FA2",
     backgroundColor:"#FEC949",
     fontWeight: 600,
     fontSize: "15px",
     fontFamily: 'Montserrat',
-    zIndex: "99"
+    zIndex: "99",
+    marginLeft: "25px"
+}
+
+const buttonInStyle = {
+    color: "#5E4FA2",
+    border: "1px solid #5E4FA2",
+    fontWeight: 600,
+    fontSize: "15px",
+    fontFamily: 'Montserrat',
+    zIndex: "99",
+    marginLeft: "25px"
 }
 
 const navToggleStyle = {
@@ -45,7 +56,8 @@ function AppBarComponent(){
                     </Nav>
                     <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success" style={buttonStyle} >Contact</Button>
+                        <Button variant="outlined" style={buttonInStyle}>Sign In</Button>
+                        <Button variant="outline-success" style={buttonUpStyle} >Sign Up</Button>
                     </Form>
                 </Navbar.Collapse>
             </Navbar>

@@ -8,9 +8,6 @@
 
 .fullElipse{
     position: absolute ;
-    top : 10%;
-    left : 5%;
-    width : 10%;
     height : auto;
 }
 
@@ -24,6 +21,8 @@
     position: absolute;
     bottom : 0;
     left : 0;
+    height: 30%;
+    width: auto;
 }
 
 .imageStyle {
@@ -62,5 +61,11 @@
 .hrStyle {
     margin-bottom: 5%;
     border: 5px solid #FEC949;
+}
+.card-box{
+    width: 243px;
+    height: 282px;
+    background-color: #ECE6F2;
+    border-radius: 10px;
 }
 /*# sourceMappingURL=index.21fc8037.css.map */
