@@ -38,8 +38,9 @@ function Hero(){
             <img src={FullElipse} className="fullElipse" style={elipseTwo}/>
             <Row className="wholeRow">
                 <Col lg={6} sm={12} className="wholeColumn">
-                    <h1 className= "h1Style" >WebName</h1>
-                    <hr width="30%" align="left" className="hrStyle"/>
+                    <h1 className= "h1Style" >International
+                        Conference on Application Frameworks</h1>
+                    <hr width="40%" align="left" className="hrStyle"/>
                     <p className= "pStyle" >WebName2021 is the first international conference organized by the Faculty of computing, SLIIT. WebName solicits research papers describing significant and innovative research contributions in all disciplines of computer science.</p>
                     <Button style={buttonStyle} > Contact us Today </Button>
                     <img src={HalfElipse} className="halfEStyle" />
