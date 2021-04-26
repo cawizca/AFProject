@@ -11,24 +11,37 @@ const buttonStyle = {
     backgroundColor: "#5E4FA2",
     color: "#FEC949",
     fontWeight: 500,
-    fontSize: "15px",
+    fontSize: "13px",
     fontFamily: 'Montserrat',
-    width: "20%",
-    height: "8%",
-    borderRadius: "8px"
+    height: "50px",
+    borderRadius: "8px",
+    zIndex: "99"
+}
+
+const elipseOne = {
+    top : "16%",
+    left : "7%",
+    width : "7%"
+}
+
+const elipseTwo = {
+    bottom : "20%",
+    right : "30%",
+    width : "12%"
 }
 
 function Hero(){
-    return (<div className="heroStyle">
+    return (<div className="heroStyle" id="home">
         <Container fluid>
             <img src={PathImage} className= "pathStyle"/>
-            <img src={FullElipse} className="fullElipse"/>
+            <img src={FullElipse} className="fullElipse" style={elipseOne}/>
+            <img src={FullElipse} className="fullElipse" style={elipseTwo}/>
             <Row className="wholeRow">
                 <Col lg={6} sm={12} className="wholeColumn">
                     <h1 className= "h1Style" >WebName</h1>
                     <hr width="30%" align="left" className="hrStyle"/>
                     <p className= "pStyle" >WebName2021 is the first international conference organized by the Faculty of computing, SLIIT. WebName solicits research papers describing significant and innovative research contributions in all disciplines of computer science.</p>
-                    <Button style={buttonStyle} > Join with us </Button>
+                    <Button style={buttonStyle} > Contact us Today </Button>
                     <img src={HalfElipse} className="halfEStyle" />
                 </Col>
                 <Col lg={6} sm={12}>
