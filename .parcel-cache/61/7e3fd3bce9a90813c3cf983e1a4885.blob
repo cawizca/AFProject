@@ -1,6 +1,0 @@
-.card-box{
-    width: 243px;
-    height: 282px;
-    background-color: #ECE6F2;
-    border-radius: 10px;
-}

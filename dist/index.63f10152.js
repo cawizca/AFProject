@@ -51827,18 +51827,35 @@ try {
           lineNumber: 12,
           columnNumber: 12
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapContainerDefault.default, {
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        className: "cardTitle d-flex justify-content-center",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13,
           columnNumber: 9
         }
-      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapRowDefault.default, {
+      }, "Keynotes."), /*#__PURE__*/_reactDefault.default.createElement("hr", {
+        className: "hrStyle",
+        width: "10%",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapContainerDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapRowDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
           columnNumber: 13
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapColDefault.default, {
@@ -51847,14 +51864,14 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 17,
           columnNumber: 17
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_CardDefault.default, {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 18,
           columnNumber: 21
         }
       })), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapColDefault.default, {
@@ -51863,7 +51880,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18,
+          lineNumber: 20,
           columnNumber: 17
         }
       }, "Card 2"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapColDefault.default, {
@@ -51872,7 +51889,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 23,
           columnNumber: 17
         }
       }, "Card 3"))))
@@ -51904,7 +51921,7 @@ try {
   function Card() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
-        className: "card-box",
+        className: "card-box d-flex justify-content-center",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -51912,6 +51929,7 @@ try {
           columnNumber: 11
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCore.Avatar, {
+        className: "avatar",
         src: "https://mercon.uom.lk/img/speakers/1.png",
         __self: this,
         __source: {
@@ -51919,7 +51937,23 @@ try {
           lineNumber: 8,
           columnNumber: 9
         }
-      }))
+      }), /*#__PURE__*/_reactDefault.default.createElement("h4", {
+        className: "profName",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 9
+        }
+      }, "Prof. John L. Volakis"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "profDesc text-center",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 9
+        }
+      }, "College of Engineering and Computing, Florida International University, USA"))
     );
   }
   _c = Card;

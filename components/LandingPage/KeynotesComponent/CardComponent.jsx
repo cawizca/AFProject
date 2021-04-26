@@ -10,6 +10,8 @@ import "../../../public/style.css"
 
 function CardComponent(){
     return <div className="heroStyle">
+        <h1 className= "cardTitle d-flex justify-content-center">Keynotes.</h1>
+        <hr className="hrStyle" width="10%"/>
         <Container >
             <Row>
                 <Col lg={4} sm={12}>
