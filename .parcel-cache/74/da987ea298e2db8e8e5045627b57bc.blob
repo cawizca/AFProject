@@ -1,0 +1,1 @@
+module.exports = require('./bundle-url').getBundleURL() + "Ellipse.HASH_REF_b43e435bb3fef055ee4b26369418446f.svg"

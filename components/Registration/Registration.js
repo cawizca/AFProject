@@ -1,10 +1,14 @@
 import React from "react";
+import AppBarComponent from "../LandingPage/AppBar/AppBarComponent";
 
 function Registraion(){
 
     return(
-
+        <div>
+        <AppBarComponent />
         <div className="container">
+
+
 
             <h1>  SIGN UP</h1>
             <form >
@@ -96,6 +100,7 @@ function Registraion(){
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
 
+        </div>
         </div>
     )
 }
