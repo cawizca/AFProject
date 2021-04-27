@@ -2,14 +2,14 @@ import React from "react";
 import "../../../public/Styles/card.css";
 import {Avatar} from "@material-ui/core";
 
-function Card(){
+function Card(props){
 
-    return (<div className="card-box d-flex justify-content-center">
-        <Avatar className="avatar" src= "https://mercon.uom.lk/img/speakers/1.png" />
-        <h4 className="profName">Prof. John L. Volakis</h4>
-        <p className="profDesc text-center">College of Engineering and Computing, Florida International University, USA</p>
-
-    </div>
+    return (
+        <div className="card-box d-flex justify-content-center">
+            <Avatar className="avatar" src={props.src}  />
+            <h4 className="profName">{props.name}</h4>
+            <p className="profDesc text-center">{props.position}</p>
+        </div>
     );
 }
 

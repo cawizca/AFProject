@@ -43,13 +43,13 @@ const navToggleStyle = {
 
 function AppBarComponent(){
     return(
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="transparent" expand="lg" fixed="top">
                 <Navbar.Brand href="#home" style={brandStyle}>ICAF</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style = {navToggleStyle}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
                         <Nav.Link href="#home" style={linkStyle} className="mx-3">Home</Nav.Link>
-                        <Nav.Link href="#link" style={linkStyle} className="mx-3">Keynotes</Nav.Link>
+                        <Nav.Link href="#keynotes" style={linkStyle} className="mx-3">Keynotes</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3">Workshops</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3">Committie</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3" >Past Proceeding</Nav.Link>

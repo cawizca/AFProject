@@ -4,6 +4,10 @@
     color: #5E4FA2;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Hero Section Styles */
 
 .fullElipse{
@@ -61,4 +65,19 @@
 .hrStyle {
     margin-bottom: 5%;
     border: 5px solid #FEC949;
+}
+
+/* Card Section */
+.cardTitle{
+    color: #5E4FA2;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.keynotePath {
+    position: absolute;
+    right: 0;
+    bottom: -50%;
+    width: 15%;
+    height: auto;
 }
