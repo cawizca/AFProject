@@ -1,4 +1,4 @@
-26367
+26369
 52E:\Web Projects\AFProject1232\node_modules\ansi-html132639212112514133 1
 85E:\Web Projects\AFProject1232\node_modules\css-tree\lib\syntax\function\expression.js132639212124650199 0
 58E:\Web Projects\AFProject1232\node_modules\uniqs\README.md132639212218525160 0
@@ -33,7 +33,7 @@
 83E:\Web Projects\AFProject1232\node_modules\react-router-dom\cjs\react-router-dom.js132639212202481482 0
 91E:\Web Projects\AFProject1232\node_modules\jsdom\lib\jsdom\living\xmlhttprequest-symbols.js132639212170427695 0
 109E:\Web Projects\AFProject1232\node_modules\postcss-reduce-transforms\node_modules\postcss\lib\previous-map.js132639212198262609 0
-35E:\Web Projects\AFProject1232\.idea132643587416434293 1
+35E:\Web Projects\AFProject1232\.idea132644272292790371 1
 90E:\Web Projects\AFProject1232\node_modules\postcss-merge-longhand\dist\lib\decl\columns.js132639212182318474 0
 99E:\Web Projects\AFProject1232\node_modules\postcss-ordered-values\node_modules\postcss\lib\parse.js132639212197602009 0
 58E:\Web Projects\AFProject1232\node_modules\sshpk\README.md132639212215952816 0
@@ -63,7 +63,7 @@
 62E:\Web Projects\AFProject1232\node_modules\isarray\.travis.yml132639212168139356 0
 71E:\Web Projects\AFProject1232\node_modules\whatwg-url\lib\public-api.js132639212219255823 0
 103E:\Web Projects\AFProject1232\node_modules\postcss-normalize-positions\node_modules\color-name\index.js132639212192797640 0
-40E:\Web Projects\AFProject1232\components132643507540166310 1
+40E:\Web Projects\AFProject1232\components132644167374694614 1
 71E:\Web Projects\AFProject1232\node_modules\@material-ui\core\IconButton132639212092935427 1
 78E:\Web Projects\AFProject1232\node_modules\indefinite-observable\tsconfig.json132639212166858195 0
 61E:\Web Projects\AFProject1232\node_modules\uniqs\package.json132639212218535160 0
@@ -78,7 +78,7 @@
 94E:\Web Projects\AFProject1232\node_modules\postcss-discard-empty\node_modules\has-flag\license132639212181888084 0
 115E:\Web Projects\AFProject1232\node_modules\postcss-normalize-repeat-style\node_modules\color-convert\conversions.js132639212193208011 0
 77E:\Web Projects\AFProject1232\node_modules\@babel\runtime\helpers\defaults.js132639212090813490 0
-37E:\Web Projects\AFProject1232\App.jsx132643509886696006 0
+37E:\Web Projects\AFProject1232\App.jsx132644171319120723 0
 92E:\Web Projects\AFProject1232\node_modules\react-bootstrap\cjs\useWrappedRefWithWarning.d.ts132639212201230353 0
 59E:\Web Projects\AFProject1232\node_modules\json-schema\test132639212170647882 1
 58E:\Web Projects\AFProject1232\node_modules\fast-deep-equal132639212162711444 1
@@ -97,7 +97,7 @@
 76E:\Web Projects\AFProject1232\node_modules\es-abstract\2019\IteratorClose.js132639212149349313 0
 60E:\Web Projects\AFProject1232\node_modules\browserify-cipher132639212113960502 1
 91E:\Web Projects\AFProject1232\node_modules\@popperjs\core\lib\utils\expandToHashMap.js.flow132639212110732499 0
-34E:\Web Projects\AFProject1232\dist132643588409618812 1
+34E:\Web Projects\AFProject1232\dist132644272268649208 1
 68E:\Web Projects\AFProject1232\node_modules\lodash\matchesProperty.js132639212177233860 0
 79E:\Web Projects\AFProject1232\node_modules\@material-ui\core\Dialog\Dialog.d.ts132639212092454999 0
 71E:\Web Projects\AFProject1232\node_modules\prop-types\checkPropTypes.js132639212199523745 0
@@ -2478,7 +2478,7 @@
 71E:\Web Projects\AFProject1232\node_modules\es-abstract\2016\ToLength.js132639212131372998 0
 77E:\Web Projects\AFProject1232\node_modules\svgo\node_modules\has-flag\license132639212216943720 0
 69E:\Web Projects\AFProject1232\node_modules\uri-js\dist\es5\uri.all.js132639212218625241 0
-57E:\Web Projects\AFProject1232\dist\Login-img.c610fdc5.svg132643588399089296 0
+57E:\Web Projects\AFProject1232\dist\Login-img.c610fdc5.svg132644272261582115 0
 60E:\Web Projects\AFProject1232\node_modules\.bin\loose-envify132639212087770728 0
 81E:\Web Projects\AFProject1232\node_modules\core-js\features\array\virtual\keys.js132639212119735751 0
 81E:\Web Projects\AFProject1232\node_modules\postcss-selector-parser\dist\selectors132639212198472790 1
@@ -3979,7 +3979,7 @@
 69E:\Web Projects\AFProject1232\node_modules\resolve-url\resolve-url.js132639212204489709 0
 55E:\Web Projects\AFProject1232\node_modules\util\util.js132639212218905497 0
 76E:\Web Projects\AFProject1232\node_modules\vm-browserify\.github\FUNDING.yml132639212219055639 0
-59E:\Web Projects\AFProject1232\components\LandingPage\AppBar132643510817841851 1
+59E:\Web Projects\AFProject1232\components\LandingPage\AppBar132644170363185620 1
 104E:\Web Projects\AFProject1232\node_modules\regenerate-unicode-properties\Script_Extensions\Manichaean.js132639212203852723 0
 79E:\Web Projects\AFProject1232\node_modules\react-bootstrap\esm\FormFileInput.js132639212201520606 0
 68E:\Web Projects\AFProject1232\node_modules\url\node_modules\punycode132639212218785388 1
@@ -9893,6 +9893,7 @@
 78E:\Web Projects\AFProject1232\node_modules\caniuse-lite\data\features\fetch.js132639212115481877 0
 72E:\Web Projects\AFProject1232\node_modules\purgecss\node_modules\postcss132639212200049268 1
 106E:\Web Projects\AFProject1232\node_modules\postcss-discard-duplicates\node_modules\color-convert\README.md132639212181437675 0
+75E:\Web Projects\AFProject1232\components\WorkshopPage\WorkshopComponent.jsx132644169186250224 0
 101E:\Web Projects\AFProject1232\node_modules\@material-ui\core\esm\AccordionDetails\AccordionDetails.js132639212100963639 0
 90E:\Web Projects\AFProject1232\node_modules\purgecss\node_modules\supports-color\browser.js132639212200059279 0
 88E:\Web Projects\AFProject1232\node_modules\purgecss\node_modules\supports-color\index.js132639212200059279 0
@@ -10888,7 +10889,7 @@
 72E:\Web Projects\AFProject1232\node_modules\cssnano-util-same-parent\dist132639212125591073 1
 104E:\Web Projects\AFProject1232\node_modules\postcss-reduce-initial\node_modules\color-name\.eslintrc.json132639212197772163 0
 102E:\Web Projects\AFProject1232\node_modules\postcss-normalize-url\node_modules\postcss\lib\postcss.d.ts132639212197031489 0
-49E:\Web Projects\AFProject1232\.idea\workspace.xml132643587416414267 0
+49E:\Web Projects\AFProject1232\.idea\workspace.xml132644272292750333 0
 61E:\Web Projects\AFProject1232\node_modules\lodash-es\forIn.js132639212172559625 0
 98E:\Web Projects\AFProject1232\node_modules\postcss-reduce-initial\node_modules\color-name\index.js132639212197782164 0
 97E:\Web Projects\AFProject1232\node_modules\postcss-reduce-initial\node_modules\color-name\LICENSE132639212197782164 0
@@ -17917,7 +17918,7 @@
 73E:\Web Projects\AFProject1232\node_modules\highlight.js\styles\github.css132639212165336818 0
 64E:\Web Projects\AFProject1232\node_modules\get-intrinsic\LICENSE132639212163742380 0
 80E:\Web Projects\AFProject1232\node_modules\highlight.js\styles\gradient-dark.css132639212165336818 0
-56E:\Web Projects\AFProject1232\dist\index.63f10152.js.map132643588409298522 0
+56E:\Web Projects\AFProject1232\dist\index.63f10152.js.map132644272268649208 0
 81E:\Web Projects\AFProject1232\node_modules\highlight.js\styles\gradient-light.css132639212165346823 0
 76E:\Web Projects\AFProject1232\node_modules\highlight.js\styles\grayscale.css132639212165346823 0
 79E:\Web Projects\AFProject1232\node_modules\highlight.js\styles\gruvbox-dark.css132639212165346823 0
@@ -18182,7 +18183,7 @@
 86E:\Web Projects\AFProject1232\node_modules\highlight.js\lib\languages\vbscript-html.js132639212164873395 0
 64E:\Web Projects\AFProject1232\node_modules\chalk\source\index.js132639212117373605 0
 79E:\Web Projects\AFProject1232\node_modules\css-tree\lib\syntax\node\Operator.js132639212124730270 0
-62E:\Web Projects\AFProject1232\dist\key-halfelipse.fedf1091.svg132643588399069277 0
+62E:\Web Projects\AFProject1232\dist\key-halfelipse.fedf1091.svg132644272261542081 0
 79E:\Web Projects\AFProject1232\node_modules\@babel\runtime\helpers\AwaitValue.js132639212090703405 0
 81E:\Web Projects\AFProject1232\node_modules\highlight.js\lib\languages\vbscript.js132639212164873395 0
 86E:\Web Projects\AFProject1232\node_modules\@babel\highlight\node_modules\chalk\license132639212089061914 0
@@ -18268,7 +18269,7 @@
 50E:\Web Projects\AFProject1232\node_modules\has\src132639212164162751 1
 94E:\Web Projects\AFProject1232\node_modules\domhandler\node_modules\domelementtype\package.json132639212128380284 0
 51E:\Web Projects\AFProject1232\node_modules\has\test132639212164162751 1
-57E:\Web Projects\AFProject1232\dist\index.21fc8037.css.map132643588408607896 0
+57E:\Web Projects\AFProject1232\dist\index.21fc8037.css.map132644272266837567 0
 60E:\Web Projects\AFProject1232\node_modules\has\test\index.js132639212164162751 0
 80E:\Web Projects\AFProject1232\node_modules\@babel\types\lib\traverse\traverse.js132639212091644256 0
 64E:\Web Projects\AFProject1232\node_modules\har-validator\LICENSE132639212163952559 0
@@ -20393,7 +20394,7 @@
 88E:\Web Projects\AFProject1232\node_modules\@material-ui\core\esm\styles\createPalette.js132639212102384941 0
 73E:\Web Projects\AFProject1232\node_modules\core-js\stable\object\index.js132639212122928644 0
 77E:\Web Projects\AFProject1232\node_modules\core-js\stable\object\is-sealed.js132639212122928644 0
-79E:\Web Projects\AFProject1232\components\LandingPage\AppBar\AppBarComponent.jsx132639939129947400 0
+79E:\Web Projects\AFProject1232\components\LandingPage\AppBar\AppBarComponent.jsx132644170363175608 0
 70E:\Web Projects\AFProject1232\node_modules\core-js\stable\object\is.js132639212122938645 0
 72E:\Web Projects\AFProject1232\node_modules\core-js\stable\object\keys.js132639212122938645 0
 81E:\Web Projects\AFProject1232\node_modules\core-js\stable\object\lookup-getter.js132639212122938645 0
@@ -23626,7 +23627,7 @@
 145E:\Web Projects\AFProject1232\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\coverage\tmp\coverage-51374-1605282231552-0.json132639212108220220 0
 135E:\Web Projects\AFProject1232\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\coverage\posthtml-parser\index.js.html132639212108120140 0
 128E:\Web Projects\AFProject1232\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\coverage\lcov-report\index.html132639212108000033 0
-60E:\Web Projects\AFProject1232\dist\keynote-path.4112e912.svg132643588398999219 0
+60E:\Web Projects\AFProject1232\dist\keynote-path.4112e912.svg132644272261582115 0
 131E:\Web Projects\AFProject1232\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\coverage\lcov-report\index.js.html132639212108020036 0
 133E:\Web Projects\AFProject1232\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\coverage\lcov-report\posthtml-parser132639212108070094 1
 130E:\Web Projects\AFProject1232\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\coverage\lcov-report\prettify.css132639212108090114 0
@@ -26344,20 +26345,21 @@
 66E:\Web Projects\AFProject1232\dist\BebasNeue-webfont.622ea1bd.woff132639212087240255 0
 65E:\Web Projects\AFProject1232\dist\BebasNeue-webfont.83eaba98.eot132639212087240255 0
 50E:\Web Projects\AFProject1232\dist\bg.8f37920f.jpg132639212087330328 0
-55E:\Web Projects\AFProject1232\dist\Ellipse.9418446f.svg132643588398999219 0
+55E:\Web Projects\AFProject1232\dist\Ellipse.9418446f.svg132644272261582115 0
 65E:\Web Projects\AFProject1232\dist\fontomas-webfont.49f6910a.woff132639212087330328 0
 64E:\Web Projects\AFProject1232\dist\fontomas-webfont.9eb0d65f.eot132639212087340356 0
 64E:\Web Projects\AFProject1232\dist\fontomas-webfont.bcf3a1f9.eot132639212087340356 0
 70E:\Web Projects\AFProject1232\dist\franchise-bold-webfont.0914ed33.ttf132639212087350345 0
 70E:\Web Projects\AFProject1232\dist\franchise-bold-webfont.41c2941f.svg132639212087350345 0
 70E:\Web Projects\AFProject1232\dist\franchise-bold-webfont.4a5e5bf2.eot132639212087360368 0
-58E:\Web Projects\AFProject1232\dist\HalfElipse.68573de9.svg132643588398989213 0
-57E:\Web Projects\AFProject1232\dist\Hero-main.5172eee9.svg132643588400130365 0
-53E:\Web Projects\AFProject1232\dist\index.21fc8037.css132643588408557855 0
-52E:\Web Projects\AFProject1232\dist\index.63f10152.js132643588408818089 0
-45E:\Web Projects\AFProject1232\dist\index.html132643588408557855 0
-58E:\Web Projects\AFProject1232\dist\login-path.c11c97c7.svg132643588399059279 0
-52E:\Web Projects\AFProject1232\dist\Path.8d32f5f3.svg132643588398999219 0
+58E:\Web Projects\AFProject1232\dist\HalfElipse.68573de9.svg132644272261582115 0
+57E:\Web Projects\AFProject1232\dist\Hero-main.5172eee9.svg132644272262573010 0
+53E:\Web Projects\AFProject1232\dist\index.21fc8037.css132644272266787515 0
+52E:\Web Projects\AFProject1232\dist\index.63f10152.js132644272267057763 0
+45E:\Web Projects\AFProject1232\dist\index.html132644272266787515 0
+58E:\Web Projects\AFProject1232\dist\login-path.c11c97c7.svg132644272261542081 0
+52E:\Web Projects\AFProject1232\dist\Path.8d32f5f3.svg132644272261582115 0
+53E:\Web Projects\AFProject1232\components\WorkshopPage132644169186270231 1
 73E:\Web Projects\AFProject1232\components\LoginPage\LoginPageComponent.jsx132643514421638675 0
 68E:\Web Projects\AFProject1232\components\LoginPage\MiddleSection.jsx132643587416066117 0
 77E:\Web Projects\AFProject1232\components\LandingPage\LandingPageComponent.jsx132639212087230237 0

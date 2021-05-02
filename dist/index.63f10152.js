@@ -26279,6 +26279,8 @@ try {
   var _componentsRegistrationRegistrationDefault = _parcelHelpers.interopDefault(_componentsRegistrationRegistration);
   var _componentsLoginPageLoginPageComponent = require("./components/LoginPage/LoginPageComponent");
   var _componentsLoginPageLoginPageComponentDefault = _parcelHelpers.interopDefault(_componentsLoginPageLoginPageComponent);
+  var _componentsWorkshopPageWorkshopComponent = require("./components/WorkshopPage/WorkshopComponent");
+  var _componentsWorkshopPageWorkshopComponentDefault = _parcelHelpers.interopDefault(_componentsWorkshopPageWorkshopComponent);
   var _jsxFileName = "E:\\Web Projects\\AFProject1232\\App.jsx";
   function App() {
     return (
@@ -26286,14 +26288,14 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
+          lineNumber: 12,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 13,
           columnNumber: 14
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26303,7 +26305,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
+          lineNumber: 14,
           columnNumber: 18
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26313,7 +26315,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
+          lineNumber: 15,
           columnNumber: 18
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26323,7 +26325,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15,
+          lineNumber: 16,
           columnNumber: 18
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26333,7 +26335,27 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16,
+          lineNumber: 17,
+          columnNumber: 18
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/",
+        exact: true,
+        component: _componentsLandingPageLandingPageComponentDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 18
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
+        path: "/workshop",
+        exact: true,
+        component: _componentsWorkshopPageWorkshopComponentDefault.default,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
           columnNumber: 18
         }
       })))
@@ -26349,7 +26371,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","./components/LandingPage/LandingPageComponent":"28fDd","react-router-dom":"1PMSK","./components/Registration/Registration":"1LRAP","./components/LoginPage/LoginPageComponent":"15icn","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"28fDd":[function(require,module,exports) {
+},{"react":"3b2NM","./components/LandingPage/LandingPageComponent":"28fDd","react-router-dom":"1PMSK","./components/Registration/Registration":"1LRAP","./components/LoginPage/LoginPageComponent":"15icn","./components/WorkshopPage/WorkshopComponent":"6gJuf","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"28fDd":[function(require,module,exports) {
 var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -26510,7 +26532,7 @@ try {
           columnNumber: 25
         }
       }, "Keynotes"), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrapNavDefault.default.Link, {
-        href: "#link",
+        href: "/workshop",
         style: linkStyle,
         className: "mx-3",
         __self: this,
@@ -86278,6 +86300,48 @@ try {
 module.exports = require('./bundle-url').getBundleURL() + "Login-img.c610fdc5.svg"
 },{"./bundle-url":"3seVR"}],"1wL2g":[function(require,module,exports) {
 module.exports = require('./bundle-url').getBundleURL() + "login-path.c11c97c7.svg"
-},{"./bundle-url":"3seVR"}]},["1j6wU","52mjJ","5Qvcc"], "5Qvcc", "parcelRequired546")
+},{"./bundle-url":"3seVR"}],"6gJuf":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _LandingPageAppBarAppBarComponent = require("../LandingPage/AppBar/AppBarComponent");
+  var _LandingPageAppBarAppBarComponentDefault = _parcelHelpers.interopDefault(_LandingPageAppBarAppBarComponent);
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\WorkshopPage\\WorkshopComponent.jsx";
+  function WorkshopComponent() {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_LandingPageAppBarAppBarComponentDefault.default, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7,
+          columnNumber: 13
+        }
+      }))
+    );
+  }
+  _c = WorkshopComponent;
+  exports.default = WorkshopComponent;
+  var _c;
+  $RefreshReg$(_c, "WorkshopComponent");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","../LandingPage/AppBar/AppBarComponent":"6thgW","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}]},["1j6wU","52mjJ","5Qvcc"], "5Qvcc", "parcelRequired546")
 
 //# sourceMappingURL=index.63f10152.js.map
