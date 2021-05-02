@@ -1,1 +1,0 @@
-module.exports = require('./bundle-url').getBundleURL() + "Login-img.HASH_REF_ba47c0002df974400ae3bd4bc610fdc5.svg"
