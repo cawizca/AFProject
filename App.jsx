@@ -6,7 +6,7 @@ import App from './src/App';
 
 
 
-function AF(){
+function App(){
 
     return (
         <Router>
@@ -20,4 +20,4 @@ function AF(){
     );
 }
 
-export default AF;
+export default App;
