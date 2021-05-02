@@ -1,1 +1,0 @@
-module.exports = require('./bundle-url').getBundleURL() + "HalfElipse.HASH_REF_1ae532fc5b9fc0edaecf839068573de9.svg"
