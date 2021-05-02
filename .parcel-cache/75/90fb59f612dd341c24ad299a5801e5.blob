@@ -1,1 +1,0 @@
-module.exports = require('./bundle-url').getBundleURL() + "keynote-path.HASH_REF_a1d0dc7326912e8aafff39dd4112e912.svg"

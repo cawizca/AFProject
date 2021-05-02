@@ -50,6 +50,7 @@ function AppBarComponent(){
                     <Nav className="mx-auto">
                         <Nav.Link href="#home" style={linkStyle} className="mx-3">Home</Nav.Link>
                         <Nav.Link href="#keynotes" style={linkStyle} className="mx-3">Keynotes</Nav.Link>
+                        <Nav.Link href="/events" style={linkStyle} className="mx-3">Main Events</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3">Workshops</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3">Committie</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3" >Past Proceeding</Nav.Link>
