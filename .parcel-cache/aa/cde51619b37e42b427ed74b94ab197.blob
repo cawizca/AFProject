@@ -1,0 +1,102 @@
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _materialUiCoreBadge = require('@material-ui/core/Badge');
+  var _materialUiCoreBadgeDefault = _parcelHelpers.interopDefault(_materialUiCoreBadge);
+  var _materialUiCoreAvatar = require('@material-ui/core/Avatar');
+  var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
+  var _materialUiCoreStyles = require('@material-ui/core/styles');
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\AppBar\\AppBarAvatar.jsx", _s = $RefreshSig$();
+  const StyledBadge = _materialUiCoreStyles.withStyles(theme => ({
+    badge: {
+      backgroundColor: '#44b700',
+      color: '#44b700',
+      boxShadow: `0 0 0 2px ${theme.palette.background.paper}`,
+      '&::after': {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        borderRadius: '50%',
+        animation: '$ripple 1.2s infinite ease-in-out',
+        border: '1px solid currentColor',
+        content: '""'
+      }
+    },
+    '@keyframes ripple': {
+      '0%': {
+        transform: 'scale(.8)',
+        opacity: 1
+      },
+      '100%': {
+        transform: 'scale(2.4)',
+        opacity: 0
+      }
+    }
+  }))(_materialUiCoreBadgeDefault.default);
+  _c = StyledBadge;
+  const useStyles = _materialUiCoreStyles.makeStyles(theme => ({
+    root: {
+      display: 'flex',
+      '& > *': {
+        margin: theme.spacing(1)
+      }
+    }
+  }));
+  function AppBarAvatar() {
+    _s();
+    const classes = useStyles();
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: classes.root,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(StyledBadge, {
+        overlap: "circle",
+        anchorOrigin: {
+          vertical: 'bottom',
+          horizontal: 'right'
+        },
+        variant: "dot",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreAvatarDefault.default, {
+        alt: "Remy Sharp",
+        src: "https://mercon.uom.lk/img/speakers/2.png",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 17
+        }
+      })))
+    );
+  }
+  _s(AppBarAvatar, "8g5FPXexvSEOsxdmU7HicukHGqY=", false, function () {
+    return [useStyles];
+  });
+  _c2 = AppBarAvatar;
+  exports.default = AppBarAvatar;
+  var _c, _c2;
+  $RefreshReg$(_c, "StyledBadge");
+  $RefreshReg$(_c2, "AppBarAvatar");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

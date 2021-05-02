@@ -1,0 +1,362 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactBootstrap = require("react-bootstrap");
+  var _materialUiCoreButton = require("@material-ui/core/Button");
+  var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
+  var _urlSrcImgLoginImgSvg = require("url:../../src/img/Login-img.svg");
+  var _urlSrcImgLoginImgSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgLoginImgSvg);
+  var _urlSrcImgLoginPathSvg = require("url:../../src/img/login-path.svg");
+  var _urlSrcImgLoginPathSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgLoginPathSvg);
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LoginPage\\MiddleSection.jsx";
+  const buttonStyle = {
+    backgroundColor: "#5E4FA2",
+    color: "#FEC949",
+    fontWeight: 700,
+    fontSize: "18px",
+    fontFamily: 'Montserrat',
+    height: "50px",
+    width: "500px",
+    borderRadius: "8px",
+    zIndex: "99",
+    marginTop: "5%"
+  };
+  const buttonSignUp = {
+    color: "#5E4FA2",
+    fontWeight: 700,
+    fontSize: "18px",
+    fontFamily: 'Montserrat',
+    height: "50px",
+    width: "500px",
+    borderRadius: "8px",
+    border: "3px solid #5E4FA2"
+  };
+  const inputBoxStyle = {
+    width: "500px"
+  };
+  const hrStyle = {
+    marginBottom: "10%",
+    marginTop: "10%",
+    border: "1px solid #5E4FA2",
+    opacity: "23%"
+  };
+  const imgStyle = {
+    margin: "8% 25% 5%",
+    width: "50%",
+    height: "auto"
+  };
+  const h1Style = {
+    color: "#5E4FA2",
+    fontSize: "45px",
+    fontWeight: "600",
+    fontFamily: "Montserrat"
+  };
+  const pStyle = {
+    color: "#5E4FA2",
+    fontSize: "25px",
+    fontWeight: "400"
+  };
+  const loginPathImg = {
+    position: "absolute",
+    width: "14%",
+    height: "auto",
+    fontFamily: "Montserrat sans-serif"
+  };
+  function MiddleSection() {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "heroStyle",
+        id: "home",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 69,
+          columnNumber: 12
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Container, {
+        fluid: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 70,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Row, {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 71,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: _urlSrcImgLoginPathSvgDefault.default,
+        style: loginPathImg,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 17
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        lg: 6,
+        sm: 12,
+        className: "wholeColumn",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "container",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        className: "h1Style",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 76,
+          columnNumber: 29
+        }
+      }, "Sign In"), /*#__PURE__*/_reactDefault.default.createElement("hr", {
+        width: "20%",
+        align: "left",
+        className: "hrStyle",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 77,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "pStyle",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78,
+          columnNumber: 29
+        }
+      }, "Welcome back to ICAF. Please insert your login details to admit the system."), /*#__PURE__*/_reactDefault.default.createElement("form", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "form-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 84,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+        htmlFor: "age",
+        className: "form-label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85,
+          columnNumber: 37
+        }
+      }, "Email : "), /*#__PURE__*/_reactDefault.default.createElement("input", {
+        style: inputBoxStyle,
+        type: "text",
+        className: "form-control",
+        id: "age",
+        placeholder: "Insert your email address",
+        onChange: event => {
+          setAge(event.target.value);
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 37
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "form-group",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("label", {
+        htmlFor: "age",
+        className: "form-label",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94,
+          columnNumber: 37
+        }
+      }, "Password : "), /*#__PURE__*/_reactDefault.default.createElement("input", {
+        style: inputBoxStyle,
+        type: "password",
+        className: "form-control",
+        id: "age",
+        placeholder: "Insert your password",
+        onChange: event => {
+          setAge(event.target.value);
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95,
+          columnNumber: 37
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "form-check",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102,
+          columnNumber: 33
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("input", {
+        className: "form-check-input",
+        type: "checkbox",
+        value: "",
+        id: "flexCheckDefault",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103,
+          columnNumber: 37
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("label", {
+        className: "form-check-label",
+        htmlFor: "flexCheckDefault",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104,
+          columnNumber: 37
+        }
+      }, "Remember me.")), /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109,
+          columnNumber: 33
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        style: buttonStyle,
+        type: "submit",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 111,
+          columnNumber: 33
+        }
+      }, "Sign In"), /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 33
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("hr", {
+        width: "70%",
+        align: "left",
+        style: hrStyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 113,
+          columnNumber: 33
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 114,
+          columnNumber: 33
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement(_materialUiCoreButtonDefault.default, {
+        style: buttonSignUp,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 115,
+          columnNumber: 33
+        }
+      }, "Sign Up")))), /*#__PURE__*/_reactDefault.default.createElement(_reactBootstrap.Col, {
+        lg: 6,
+        sm: 12,
+        style: {
+          backgroundColor: "#ECE6F2",
+          paddingTop: "5%"
+        },
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 119,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "text-center",
+        style: pStyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 120,
+          columnNumber: 21
+        }
+      }, "Welcome back to"), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        className: "text-center",
+        style: h1Style,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 21
+        }
+      }, "International Conference ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 123,
+          columnNumber: 90
+        }
+      }), "on ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124,
+          columnNumber: 28
+        }
+      }), "Application Frameworks"), /*#__PURE__*/_reactDefault.default.createElement("img", {
+        src: _urlSrcImgLoginImgSvgDefault.default,
+        style: imgStyle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126,
+          columnNumber: 20
+        }
+      })))))
+    );
+  }
+  _c = MiddleSection;
+  exports.default = MiddleSection;
+  var _c;
+  $RefreshReg$(_c, "MiddleSection");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
