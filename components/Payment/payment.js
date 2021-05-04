@@ -1,13 +1,15 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import axios from "axios";
 import master from "url:../../src/img/Master.png"
 import visa from "url:../../src/img/visa.png"
 import Payment_success from "./Payment_success";
+import {Link } from "react-router-dom";
+import {useHistory} from "react-router";
 
 
 
+export default function Payment(props){
 
-export default function Payment(){
 
 
     const [type,setType] = useState(" ");
@@ -19,8 +21,8 @@ export default function Payment(){
 
 
    // setPayable(600);
-
-    function sendData(e){
+    const history = useHistory();
+    function sendData(e) {
         e.preventDefault();
         //alert(" Inserted");
 
@@ -36,15 +38,20 @@ export default function Payment(){
 
         }
 
-        axios.post("http://localhost:8090/atm/",newuser).then((res)=>{
+        axios.post("http://localhost:8090/atm/", newuser).then((res) => {
             alert(res.data);
-            return <Payment_success to={"http://localhost:3000/success/"}/>
+           const resdata = res.data
+            if(resdata=="true")
+            history.push("/success")
+            else{
+                history.push("/bill")
+            }
 
-        }).catch((err)=>{
+        }).catch((err) => {
             alert(err)
         })
-
     }
+
 
 
     return (
@@ -146,7 +153,7 @@ export default function Payment(){
 
                             <br/>
                             <button type="submit" className="btn btn-warning" style={{marginLeft:'20px'}}>Cancel</button>
-                            <button type="submit" className="btn btn-danger" style={{marginLeft:'20px'}}>Pay</button>
+                            <button type="submit" className="btn btn-danger" style={{marginLeft:'20px'}} >Pay</button>
 
                         </form>
 

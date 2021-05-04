@@ -7,12 +7,12 @@ export default function bill(){
 
         <div>
 
-            <h2>Your ticket price  </h2>
+            <h2>       Your ticket price  </h2>
 
-            <h3>500</h3>
+            <h3>600</h3>
 
-            <form action="/payment">
-                <button >Pay</button>
+            <form action="/payment" >
+                <button >Pay here </button>
             </form>
 
 
