@@ -31,7 +31,7 @@ function AppBarComponent(){
                         <Nav.Link href="#home" style={linkStyle} className="mx-3">Home</Nav.Link>
                         <Nav.Link href="#keynotes" style={linkStyle} className="mx-3">Keynotes</Nav.Link>
                         <Nav.Link href="/workshop" style={linkStyle} className="mx-3">Workshops</Nav.Link>
-                        <Nav.Link href="#link" style={linkStyle} className="mx-3">Committie</Nav.Link>
+                        <Nav.Link href="/bill" style={linkStyle} className="mx-3">Committie</Nav.Link>
                         <Nav.Link href="#link" style={linkStyle} className="mx-3" >Past Proceeding</Nav.Link>
                     </Nav>
                     <Form inline>
