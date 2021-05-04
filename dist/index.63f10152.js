@@ -1054,7 +1054,7 @@ try {
   var _reactDomDefault = _parcelHelpers.interopDefault(_reactDom);
   var _App = require('./App');
   var _AppDefault = _parcelHelpers.interopDefault(_App);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\index.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\index.jsx";
   _reactDomDefault.default.render(/*#__PURE__*/_reactDefault.default.createElement(_AppDefault.default, {
     __self: undefined,
     __source: {
@@ -26287,7 +26287,7 @@ try {
   var _componentsPaymentPaymentDefault = _parcelHelpers.interopDefault(_componentsPaymentPayment);
   var _componentsPaymentPayment_success = require("./components/Payment/Payment_success");
   var _componentsPaymentPayment_successDefault = _parcelHelpers.interopDefault(_componentsPaymentPayment_success);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\App.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\App.jsx";
   function App() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.BrowserRouter, {
@@ -26325,33 +26325,13 @@ try {
           columnNumber: 18
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
-        path: "/",
-        exact: true,
-        component: _componentsLandingPageLandingPageComponentDefault.default,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18,
-          columnNumber: 18
-        }
-      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
         path: "/signin",
         exact: true,
         component: _componentsLoginPageLoginPageComponentDefault.default,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19,
-          columnNumber: 18
-        }
-      }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
-        path: "/",
-        exact: true,
-        component: _componentsLandingPageLandingPageComponentDefault.default,
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 18,
           columnNumber: 18
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26361,7 +26341,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 19,
           columnNumber: 18
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26371,7 +26351,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23,
+          lineNumber: 21,
           columnNumber: 18
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26381,7 +26361,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 22,
           columnNumber: 18
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_reactRouterDom.Route, {
@@ -26391,7 +26371,7 @@ try {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 23,
           columnNumber: 18
         }
       })))
@@ -26423,7 +26403,7 @@ try {
   var _HeroSectionHeroDefault = _parcelHelpers.interopDefault(_HeroSectionHero);
   var _KeynotesComponentCardComponent = require("./KeynotesComponent/CardComponent");
   var _KeynotesComponentCardComponentDefault = _parcelHelpers.interopDefault(_KeynotesComponentCardComponent);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LandingPage\\LandingPageComponent.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\LandingPageComponent.jsx";
   function LandingPageComponent() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -26488,7 +26468,7 @@ try {
   var _AppBarButtons = require("./AppBarButtons");
   var _AppBarButtonsDefault = _parcelHelpers.interopDefault(_AppBarButtons);
   require("./AppBarAvatar");
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LandingPage\\AppBar\\AppBarComponent.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\AppBar\\AppBarComponent.jsx";
   const brandStyle = {
     color: "#5E4FA2",
     fontWeight: 700
@@ -39580,7 +39560,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _materialUiCoreButton = require("@material-ui/core/Button");
   var _materialUiCoreButtonDefault = _parcelHelpers.interopDefault(_materialUiCoreButton);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LandingPage\\AppBar\\AppBarButtons.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\AppBar\\AppBarButtons.jsx";
   const buttonInStyle = {
     color: "#5E4FA2",
     border: "1px solid #5E4FA2",
@@ -42440,7 +42420,7 @@ try {
   var _materialUiCoreAvatar = require('@material-ui/core/Avatar');
   var _materialUiCoreAvatarDefault = _parcelHelpers.interopDefault(_materialUiCoreAvatar);
   var _materialUiCoreStyles = require('@material-ui/core/styles');
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LandingPage\\AppBar\\AppBarAvatar.jsx", _s = $RefreshSig$();
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\AppBar\\AppBarAvatar.jsx", _s = $RefreshSig$();
   const StyledBadge = _materialUiCoreStyles.withStyles(theme => ({
     badge: {
       backgroundColor: '#44b700',
@@ -43544,7 +43524,7 @@ try {
   var _urlSrcImgEllipseSvg = require("url:../../../src/img/Ellipse.svg");
   var _urlSrcImgEllipseSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgEllipseSvg);
   require("../../../public/style.css");
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LandingPage\\HeroSection\\Hero.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\HeroSection\\Hero.jsx";
   const buttonStyle = {
     backgroundColor: "#5E4FA2",
     color: "#FEC949",
@@ -53069,7 +53049,7 @@ try {
   var _urlSrcImgEllipseSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgEllipseSvg);
   var _urlSrcImgKeyHalfelipseSvg = require("url:../../../src/img/key-halfelipse.svg");
   var _urlSrcImgKeyHalfelipseSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgKeyHalfelipseSvg);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LandingPage\\KeynotesComponent\\CardComponent.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\KeynotesComponent\\CardComponent.jsx";
   const colStyle = {
     marginBottom: "10%"
   };
@@ -53205,7 +53185,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require("../../../public/Styles/card.css");
   var _materialUiCore = require("@material-ui/core");
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LandingPage\\KeynotesComponent\\Card.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LandingPage\\KeynotesComponent\\Card.jsx";
   function Card(props) {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -85555,7 +85535,7 @@ try {
   var _LandingPageAppBarAppBarComponentDefault = _parcelHelpers.interopDefault(_LandingPageAppBarAppBarComponent);
   var _axios = require("axios");
   var _axiosDefault = _parcelHelpers.interopDefault(_axios);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\Registration\\Registration.js", _s = $RefreshSig$();
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\Registration\\Registration.js", _s = $RefreshSig$();
   function Registraion() {
     _s();
     const [firstname, setFirstname] = _react.useState("");
@@ -87695,7 +87675,7 @@ try {
   var _LandingPageAppBarAppBarComponentDefault = _parcelHelpers.interopDefault(_LandingPageAppBarAppBarComponent);
   var _MiddleSection = require("./MiddleSection");
   var _MiddleSectionDefault = _parcelHelpers.interopDefault(_MiddleSection);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LoginPage\\LoginPageComponent.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LoginPage\\LoginPageComponent.jsx";
   function LoginPageComponent() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -87749,7 +87729,7 @@ try {
   var _urlSrcImgLoginImgSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgLoginImgSvg);
   var _urlSrcImgLoginPathSvg = require("url:../../src/img/login-path.svg");
   var _urlSrcImgLoginPathSvgDefault = _parcelHelpers.interopDefault(_urlSrcImgLoginPathSvg);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\LoginPage\\MiddleSection.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\LoginPage\\MiddleSection.jsx";
   const buttonStyle = {
     backgroundColor: "#5E4FA2",
     color: "#FEC949",
@@ -88112,7 +88092,7 @@ try {
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _LandingPageAppBarAppBarComponent = require("../LandingPage/AppBar/AppBarComponent");
   var _LandingPageAppBarAppBarComponentDefault = _parcelHelpers.interopDefault(_LandingPageAppBarAppBarComponent);
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\WorkshopPage\\WorkshopComponent.jsx";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\WorkshopPage\\WorkshopComponent.jsx";
   function WorkshopComponent() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -88153,7 +88133,7 @@ try {
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require("axios");
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\Payment\\Bill.js";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\Payment\\Bill.js";
   function bill() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -88221,7 +88201,7 @@ try {
   require("./Payment_success");
   require("react-router-dom");
   var _reactRouter = require("react-router");
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\Payment\\payment.js", _s = $RefreshSig$();
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\Payment\\payment.js", _s = $RefreshSig$();
   function Payment(props) {
     _s();
     const [type, setType] = _react.useState(" ");
@@ -88755,7 +88735,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","axios":"7rA65","url:../../src/img/Master.png":"2U1yE","url:../../src/img/visa.png":"4az0n","./Payment_success":"2Fg2V","react-router-dom":"1PMSK","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","react-router":"3v97x"}],"2U1yE":[function(require,module,exports) {
+},{"react":"3b2NM","axios":"7rA65","url:../../src/img/Master.png":"2U1yE","url:../../src/img/visa.png":"4az0n","./Payment_success":"2Fg2V","react-router-dom":"1PMSK","react-router":"3v97x","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"2U1yE":[function(require,module,exports) {
 module.exports = require('./bundle-url').getBundleURL() + "Master.a3805616.png"
 },{"./bundle-url":"3seVR"}],"4az0n":[function(require,module,exports) {
 module.exports = require('./bundle-url').getBundleURL() + "visa.cefb2e27.png"
@@ -88770,7 +88750,7 @@ try {
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   require("axios");
-  var _jsxFileName = "C:\\Users\\Shanuka\\Desktop\\AFProject\\components\\Payment\\Payment_success.js";
+  var _jsxFileName = "E:\\Web Projects\\AFProject1232\\components\\Payment\\Payment_success.js";
   function Payment_success() {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {

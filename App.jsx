@@ -15,9 +15,7 @@ function App(){
              <div>
                  <Route path="/" exact component={LandingPageComponent}/>
                  <Route path="/registration" exact component={Registration}/>
-                 <Route path="/" exact component={LandingPageComponent}/>
                  <Route path="/signin" exact component={LoginPageComponent}/>
-                 <Route path="/" exact component={LandingPageComponent}/>
                  <Route path="/workshop" exact component={WorkshopComponent}/>
 
                  <Route path="/bill" exact component={Bill}/>
