@@ -23,12 +23,12 @@ const navToggleStyle = {
 
 function AppBarComponent(){
     return(
-            <Navbar bg="light" expand="lg" sticky="top">
-                <Navbar.Brand href="#home" style={brandStyle}>ICAF</Navbar.Brand>
+            <Navbar className="shadow-sm p-3 mb-5 bg-white rounded" bg="light" expand="lg" sticky="top">
+                <Navbar.Brand href="/" style={brandStyle}>ICAF</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style = {navToggleStyle}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link href="#home" style={linkStyle} className="mx-3">Home</Nav.Link>
+                        <Nav.Link href="/" style={linkStyle} className="mx-3">Home</Nav.Link>
                         <Nav.Link href="#keynotes" style={linkStyle} className="mx-3">Keynotes</Nav.Link>
                         <Nav.Link href="/workshop" style={linkStyle} className="mx-3">Workshops</Nav.Link>
                         <Nav.Link href="/bill" style={linkStyle} className="mx-3">Committie</Nav.Link>

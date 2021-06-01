@@ -1,0 +1,29 @@
+.title-card{
+    width: 880px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #ECE6F2;
+    box-shadow: -9px 9px 21px rgba(0, 0, 0, 0.16);
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.titleName{
+    font-family: 'Poppins', sans-serif;
+    color: #5E4FA2;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.titleDesc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #5E4FA2;
+}
+
+.imageUrl{
+    height: 190px;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}

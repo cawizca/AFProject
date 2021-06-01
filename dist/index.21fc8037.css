@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .primaryColor{
     color: #5E4FA2;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
+body{
+    background-color: #f8f9fa;
+}
 /* Hero Section Styles */
-
 .fullElipse{
     position: absolute ;
     height : auto;
 }
-
 .pathStyle {
     position: absolute;
     top : 0;
     right : 0;
 }
-
 .halfEStyle {
     position: absolute;
     bottom : 0;
@@ -28,59 +26,69 @@ html {
     height: 30%;
     width: auto;
 }
-
 .imageStyle {
     height : 75%;
     width : auto ;
     margin-left: 30%;
 }
-
 .h1Style {
     color: #5E4FA2;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     font-size: 55px;
 }
-
 .pStyle  {
     color: #5E4FA2;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 5%;
     z-index: -99;
+    font-size: 20px;
 }
-
 .heroStyle {
     background-color: #f8f9fa;
 }
-
 .wholeRow  {
     padding-top: 5%;
 }
-
 .wholeColumn {
     padding-top: 5%;
     padding-left: 10%;
 }
-
 .hrStyle {
     margin-bottom: 5%;
     border: 5px solid #FEC949;
 }
-
 /* Card Section */
-
 .cardTitle{
     color: #5E4FA2;
     font-size: 45px;
     font-weight: 700;
 }
-
 .keynotePath {
     position: absolute;
     right: 0;
     bottom: -50%;
     width: 15%;
     height: auto;
+}
+@media only screen and (max-width: 768px) {
+    .imageStyle {
+        height : 50%;
+        width : auto ;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+    .h1Style {
+        font-size: 40px;
+    }
+    .pStyle  {
+        color: #5E4FA2;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 5%;
+        z-index: -99;
+        font-size: 18px;
+    }
+
 }
 .card-box{
     position: relative;
@@ -90,6 +98,7 @@ html {
     border-radius: 10px;
     box-shadow: -9px 9px 21px rgba(0, 0, 0, 0.16);
     transition: 0.7s;
+    margin-bottom: 50%;
 }
 
 .card-box:hover{
@@ -122,4 +131,74 @@ html {
     color: #5E4FA2;
 }
 
+.card-image{
+    width: 240px;
+    height: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.card-topic{
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    color: #5E4FA2;
+    font-weight: 700;
+    font-size: large;
+}
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    color: #5E4FA2;
+    font-weight: 500;
+    width: 75%;
+    font-size: small;
+}
+
+.dialog-title{
+    margin: 0% 5% !important;
+    font-family: 'Poppins', sans-serif;
+    color: #5E4FA2;
+    text-align: center;
+    font-size: 30px;
+    padding: 0% 10%;
+    font-weight: 700;
+}
+
+.workshopStyle{
+    border: 4px solid #FEC949;
+    width: 50%;
+}
+
+form{
+    text-align: center;
+}
+.title-card{
+    width: 880px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #ECE6F2;
+    box-shadow: -9px 9px 21px rgba(0, 0, 0, 0.16);
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+
+.titleName{
+    font-family: 'Poppins', sans-serif;
+    color: #5E4FA2;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.titleDesc{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #5E4FA2;
+}
+
+.imageUrl{
+    height: 190px;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
 /*# sourceMappingURL=index.21fc8037.css.map */
