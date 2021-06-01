@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .primaryColor{
     color: #5E4FA2;
@@ -6,6 +7,10 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f8f9fa;
 }
 
 /* Hero Section Styles */
@@ -47,6 +52,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 5%;
     z-index: -99;
+    font-size: 20px;
 }
 
 .heroStyle {
@@ -80,4 +86,24 @@ html {
     bottom: -50%;
     width: 15%;
     height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .imageStyle {
+        height : 50%;
+        width : auto ;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+    .h1Style {
+        font-size: 40px;
+    }
+    .pStyle  {
+        color: #5E4FA2;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 5%;
+        z-index: -99;
+        font-size: 18px;
+    }
+
 }

@@ -6,6 +6,7 @@
     border-radius: 10px;
     box-shadow: -9px 9px 21px rgba(0, 0, 0, 0.16);
     transition: 0.7s;
+    margin-bottom: 50%;
 }
 
 .card-box:hover{
@@ -36,4 +37,27 @@
     width: 90%;
     font-size: 15px;
     color: #5E4FA2;
+}
+
+.card-image{
+    width: 240px;
+    height: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.card-topic{
+    margin-top: 10%;
+    font-family: 'Poppins', sans-serif;
+    color: #5E4FA2;
+    font-weight: 700;
+    font-size: large;
+}
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    color: #5E4FA2;
+    font-weight: 500;
+    width: 75%;
+    font-size: small;
 }

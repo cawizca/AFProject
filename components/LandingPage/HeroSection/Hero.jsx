@@ -6,6 +6,7 @@ import PathImage from "url:../../../src/img/Path.svg";
 import HalfElipse from "url:../../../src/img/HalfElipse.svg";
 import FullElipse from "url:../../../src/img/Ellipse.svg";
 import "../../../public/style.css";
+import { UilNavigator } from '@iconscout/react-unicons';
 
 const buttonStyle = {
     backgroundColor: "#5E4FA2",
@@ -40,13 +41,12 @@ function Hero(){
                 <Col lg={6} sm={12} className="wholeColumn">
                     <h1 className= "h1Style" >International Conference on Application Frameworks</h1>
                     <hr width="40%" align="left" className="hrStyle"/>
-                    <p className= "pStyle" >WebName2021 is the first international conference organized by the Faculty of computing, SLIIT. WebName solicits research papers describing significant and innovative research contributions in all disciplines of computer science.</p>
+                    <p className= "pStyle" >International Conference on Application Frameworks (ICAF) is the first international conference organized by the Faculty of computing, SLIIT. ICAF solicits research papers describing significant and innovative research contributions in all disciplines of computer science.</p>
 
-                    <Button style={buttonStyle} > Contact us Today </Button>
+                    <Button style={buttonStyle} > Contact us Today <UilNavigator size= "35px" style={{paddingLeft:"5%"}}/></Button>
                     <img src={HalfElipse} className="halfEStyle" />
                 </Col>
                 <Col lg={6} sm={12}>
-
                     <img src={MainImage} className="imageStyle" />
                 </Col>
             </Row>
